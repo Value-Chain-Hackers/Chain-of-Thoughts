@@ -1,0 +1,77 @@
+---
+title: "Urmom"
+format: 
+  html: default
+  pdf: default
+---
+
+This is urmom.
+We're now going to upgrade, 
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Why do we do this
+
+Make presentations and documents out of markdown easyily in one combined workflow
+
+## Tools needed
+https://quarto.org/docs/get-started/
+-- Quarto:  https://quarto.org/
+    Windows: 
+    Linux: 
+    chmod u+x 
+    dpkg -i filename
+
+## extensions needed
+
+python3
+-- Visual Studio Code Quarto Extensions: 
+
+### python packages needed.
+matplotlib  numpy  pyplot seaborn2 nbformat pyyaml jupyter 
+quarto install tinytex
+```bash
+
+python -m venv .venv
+ .\.venv\Scripts\activate
+linux: source ./.venv/bin.activate 
+conda 
+```
+then Pip install matplotlib seaborn nbformat pyyaml jupyter 
+Something go wrong? Kill the .venv folder and start with all the commands
+numpy
+
+quarto preview .
+
+press cntrl + shift + P 
+add visual mode
+
+
+IT"S ALIVEEEE
+
+```{python}
+#| label: fig-sigmoid
+#| fig-cap: "Sigmoid"
+# HashPipe is metadata not a comment, hash is a comment. Don't smoke comments.
+import numpy as np
+import matplotlib.pyplot as plt
+
+def sigmoid(x):
+    return 1 / (1 + np.exp(-x))
+
+# Define the range for the input data
+x = np.linspace(-10, 10, 100)
+plt.figure(figsize=(5, 3))
+plt.plot(x, sigmoid(x), label="Sigmoid")
+plt.title("SigmoidFunction")
+plt.xlabel("x")
+plt.ylabel("f(x)")
+plt.grid(True) 
+```
+
+## python
+
+{{< embed ActivationFunctions.ipynb#fig-mish >}}
+
+$$
+\text{Mish}(x) = x \cdot \tanh(\text{Softplus}(x))
+$$
