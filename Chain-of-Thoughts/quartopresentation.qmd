@@ -1,0 +1,35 @@
+---
+title: "Introduction to Quarto"
+format: 
+    revealjs: default
+---
+
+# Introduction to Quarto
+
+## What is Quarto?
+
+Quarto is a scientific and technical publishing system that allows users to create dynamic and reproducible documents, presentations, and more.
+
+---
+
+## Key Features
+
+- **Reproducibility**: Integrates with Jupyter, RStudio, and Observable to support computational notebooks.
+- **Flexibility**: Supports Markdown, R, Python, and other languages.
+- **Output Formats**: Generates output in multiple formats like HTML, PDF, and slides.
+
+---
+
+## How Quarto Works
+
+- Write content in Markdown or code chunks.
+- Use Quarto commands to compile documents.
+- Distribute or publish the output in various formats.
+
+---
+
+## Example Slide with Code
+
+```{r}
+# R code example
+summary(cars)

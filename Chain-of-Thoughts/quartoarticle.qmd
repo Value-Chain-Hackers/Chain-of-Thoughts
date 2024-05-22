@@ -1,0 +1,62 @@
+**Supply Chain Relation Map of Unilever**
+=====================================================
+
+Here is a comprehensive and simplified representation of Unilever's supply chain, highlighting key entities and relationships:
+
+* **Farmers/Suppliers**: Provide raw materials (agricultural products) to Unilever
+	+ Examples: Cargill, Archer Daniels Midland, Bunge
+	+ Products: Wheat, corn, soybeans, sugar cane, coffee beans
+
+* **Manufacturing Plants**: Produce products for Unilever, serving as critical nodes in the supply chain
+	+ Examples: Unilever's own manufacturing facilities, such as the one in Port Sunlight, UK
+	+ Products: Soaps, shampoos, toothpaste, deodorants, cosmetics
+
+* **Distributors**: Transport and store products for Unilever, connecting manufacturing plants to retailers
+	+ Examples: Sysco, Gordon Food Service, US Foods
+	+ Products: Soaps, shampoos, toothpaste, deodorants, cosmetics
+
+* **Logistics Service Providers**: Manage transportation and storage services for Unilever, ensuring efficient movement of goods
+	+ Examples: DHL, FedEx, UPS
+	+ Services: Transportation, warehousing, inventory management
+
+* **Retailers**: Sell products to consumers, completing the flow of goods and services within Unilever's supply chain
+	+ Examples: Walmart, Target, CVS Pharmacy, Walgreens
+	+ Products: Soaps, shampoos, toothpaste, deodorants, cosmetics
+
+**Relationships:**
+
+The relationships between these nodes are crucial in understanding Unilever's supply chain. The map highlights the flow of goods and services from farmers/suppliers to manufacturing plants, then to distributors, logistics service providers, and finally to retailers.
+
+This simplified representation provides a comprehensive overview of the key entities and relationships involved in Unilever's supply chain, setting the stage for creating an accurate supply chain map.
+
+**Key Takeaways:**
+
+1. **Farmers/Suppliers**: Provide raw materials (agricultural products) to Unilever
+2. **Manufacturing Plants**: Produce products for Unilever, serving as critical nodes in the supply chain
+3. **Distributors**: Transport and store products for Unilever, connecting manufacturing plants to retailers
+4. **Logistics Service Providers**: Manage transportation and storage services for Unilever, ensuring efficient movement of goods
+5. **Retailers**: Sell products to consumers, completing the flow of goods and services within Unilever's supply chain
+
+**Insights:**
+
+1. Understanding Unilever's operations is crucial for creating an accurate supply chain map.
+2. The relationships between these nodes are critical in understanding Unilever's supply chain.
+3. This simplified representation provides a comprehensive overview of the key entities and relationships involved in Unilever's supply chain.
+
+**Conclusion:**
+This supply chain relation map of Unilever highlights the key entities and relationships involved in their supply chain, providing a comprehensive overview of the flow of goods and services from farmers/suppliers to retailers. By understanding these relationships, we can better appreciate the complexity and importance of Unilever's supply chain.
+
+
+```{dot}
+digraph UnileverSupplyChain {
+    node[shape=box, style=filled];
+    
+    "Farmers/Suppliers" -> "Manufacturers" [label="Raw Materials"];
+    "Manufacturers" -> "Distributors" [label="Inventory, Shipping, and Storage"];
+    "Distributors" -> "Retailers" [label="Final Point of Sale"];
+    "Packaging Suppliers" -> "Manufacturers" [label="Materials"];
+    
+    "Unilever" [label="Ownership and Operation of Manufacturing Facilities vs. Contracting with Third-Party Manufacturers"];
+}
+
+```
