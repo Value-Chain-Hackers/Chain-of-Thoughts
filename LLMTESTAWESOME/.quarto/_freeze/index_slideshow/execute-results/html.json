@@ -1,0 +1,12 @@
+{
+  "hash": "69d47c5d130da658f1fa06859040407e",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Urmom\"\nformat: \n  revealjs: \n    theme: moon\n    navigation-mode: grid \n    controls-layout: bottom-right\n    controls-tutorial: true\n    incremental: true\n---\n\nThis is urmom.\nWe're now going to upgrade, \n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n## Why do we do this\n\nMake presentations and documents out of markdown easyily in one combined workflow\n\n## Tools needed\nhttps://quarto.org/docs/get-started/\n-- Quarto:  https://quarto.org/\n    Windows: \n    Linux: \n    chmod u+x \n    dpkg -i filename\n\n## extensions needed\n\npython3\n-- Visual Studio Code Quarto Extensions: \n\n### python packages needed.\nmatplotlib  numpy  pyplot seaborn2 nbformat pyyaml jupyter \nquarto install tinytex\n```bash\n\npython -m venv .venv\n .\\.venv\\Scripts\\activate\nlinux: source ./.venv/bin.activate \nconda \n```\nthen Pip install matplotlib seaborn nbformat pyyaml jupyter \nSomething go wrong? Kill the .venv folder and start with all the commands\nnumpy\n\nquarto preview .\n\npress cntrl + shift + P \nadd visual mode\n\n\nIT\"S ALIVEEEE\n\n::: {#cell-fig-sigmoid .cell execution_count=1}\n\n::: {.cell-output .cell-output-display}\n![Sigmoid](index_slideshow_files/figure-revealjs/fig-sigmoid-output-1.png){#fig-sigmoid width=440 height=302}\n:::\n:::\n\n\n## python\n\n\n{{< embed ActivationFunctions.ipynb#fig-mish >}}\n\n\n\n$$\n\\text{Mish}(x) = x \\cdot \\tanh(\\text{Softplus}(x))\n$$\n\n",
+    "supporting": [
+      "index_slideshow_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

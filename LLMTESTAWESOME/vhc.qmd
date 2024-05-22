@@ -1,0 +1,98 @@
+---
+title: "Sprint Review: AI Supply Chain Tool"
+format: 
+  revealjs:
+    slideNumber: true
+    progress: true
+    history: true
+    transition: 'slide'
+    width: 1280
+    height: 800
+    margin: 0.1
+    minScale: 0.2
+    maxScale: 1.5
+---
+
+## Welcome & Introduction
+
+- Date: `r Sys.Date()`
+- Presenter: John Doe
+- Objective: Review the progress of our AI Supply Chain Tool development
+
+## Sprint Overview
+
+- **Sprint Goals**: Integrate machine learning for demand forecasting
+- **Key Milestones**: 
+    - Completion of data integration module
+    - Initial model training
+- **Duration of Sprint**: 2 Weeks
+- **Team Members**: John, Mary, Alex, Linda
+
+## Work Completed
+
+::: incremental
+
+- [x] Data Integration: Successfully integrated historical sales data.
+- [x] Model Training: Achieved an initial accuracy of 75% on training set.
+- [x] UI Enhancements: Improved dashboard for better user interaction.
+
+---
+
+## Key Achievements
+
+- **Major Achievement**: Successful prototype of demand forecasting feature.
+- **Impact on Project**: Enhances predictive capabilities, potentially reducing overstock by 20%.
+- **Completed Product Increments**:
+    - Real-time data processing pipeline
+    - User interface for forecast adjustments
+
+## Challenges Faced
+
+- **Significant Challenges**:
+    - Data inconsistency across sources
+    - Initial model underperformance
+- **Addressed by**:
+    - Implementing a data cleansing process
+    - Parameter tuning and additional training data
+- **Remaining Concerns**: Scalability of the model with real-time data influx
+
+## Product Demonstration
+
+- **Live Demo**: Showcasing the demand forecasting tool in action.
+- **Feature Explanation**: Detailed overview of data inputs and machine learning outputs.
+- **Interaction Scenarios**: Simulating different supply chain scenarios to demonstrate adaptability.
+
+## Feedback & Questions
+
+- **Questions Received**:
+    - Concerns about data privacy
+    - Questions about integration with existing ERP systems
+- **Feedback Incorporation**:
+    - Plan to enhance data encryption
+    - Roadmap for ERP integration by next quarter
+
+## Sprint Metrics
+
+- **Velocity Chart**: Display of completed story points over time.
+- **Burndown Chart**: Current sprint progress.
+- **Other Metrics**: Accuracy improvements of the forecasting model.
+
+## Plan for Next Sprint
+
+- **Objectives**:
+    - Increase model accuracy to 85%
+    - Begin ERP system integration
+- **Planned Tasks**:
+    - Collect more diverse data sets
+    - Work on backend modifications for ERP integration
+- **Adjustments Based on Feedback**:
+    - Focus on data security enhancements
+
+## Conclusion
+
+- **Summary**: Reviewed the advancements made in our AI tool for enhancing supply chain efficiency.
+- **Next Steps**:
+    - Continue development and testing of the forecasting model
+    - Initiate stakeholder meetings for next-phase planning
+- **Thank You**: Special thanks to the team and stakeholders for ongoing support and feedback.
+

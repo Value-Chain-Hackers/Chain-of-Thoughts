@@ -1,0 +1,38 @@
+{
+  "about.qmd": {
+    "about.html": "7982f143"
+  },
+  "index.qmd": {
+    "index.html": "7f3f30b0",
+    "index.tex": "3582b01f"
+  },
+  "ActivationFunctions.ipynb": {
+    "ActivationFunctions.out.ipynb": "d66b1f48",
+    "ActivationFunctions-preview.html": "8e83f7ae",
+    "ActivationFunctions.html": "51ab3a04"
+  },
+  "TreeOfThoughts.ipynb": {
+    "TreeOfThoughts.html": "b5ae3456"
+  },
+  "index_slideshow.qmd": {
+    "index_slideshow.html": "be20c05d"
+  },
+  "quartopresentation.qmd": {
+    "quartopresentation.html": "2138e2fe"
+  },
+  "quartoarticle.qmd": {
+    "quartoarticle.html": "2337033d"
+  },
+  "vhc.qmd": {
+    "vhc.html": "aea390d8"
+  },
+  "TreeOfThoughts2.ipynb": {
+    "TreeOfThoughts2.html": "5143c897"
+  },
+  "reamdme.md": {
+    "reamdme.html": "586797b8"
+  },
+  "VhcPresentation.qmd": {
+    "VhcPresentation.html": "9ee37a96"
+  }
+}
